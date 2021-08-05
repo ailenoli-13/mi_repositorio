@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*inicio retoque index*/
+html{
+	font-size: 62.5%;
+}
+.rowFlex{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.estiloLista{
+	display: flex;
+	flex-direction: row;
+	width: 229%;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	justify-content: space-evenly;
+	padding-top: 30px;
+	margin-top: 45px;
+	padding-bottom: 30px;
+	margin-bottom: 27px;
+	list-style-type: none;
+}
+footer div h3{
+	margin-top: 24px;
+}
+footer div a{
+	margin-top: 3px;
+	margin-right: 9px;
+}
+
+.contenedorGrid{
+	display: grid;
+	grid-template-areas:
+	"header header"
+	"encabezado encabezado"
+	"imagenes imagenes"
+	"footer footer";
+	grid-template-rows: 156px 1fr 13fr 71px;
+	grid-template-columns: 50% 50%;
+}
+header{
+	grid-area: header;
+	display: flex;
+	color: saddlebrown;
+}
+header	nav ul li a {color: saddlebrown;
+	text-decoration: none;}
+
+section.encabezado{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	transition: 1s;
+}
+section.encabezado:hover{color: brown; cursor: pointer;}
+section.imagenes{
+	grid-area: imagenes;
+}
+footer{
+	grid-area: footer;
+	color: firebrick;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between
+}
+/*fin retoque index*/
+
+.grid{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 373px 234px;
+	justify-items: center;
+}
+
+.encabezado1{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	margin-bottom: 14px;
+}
+.tituloSab{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: saddlebrown;
+}
+.listaSab{
+	text-align: center;
+	line-height: 3;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.encabezado2{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	margin-bottom: 14px;
+}
+.grid2{
+	display: grid;
+	grid-template-columns: 25% 25%;
+	grid-template-rows: 305px 315px;
+}
+.tituloCaf{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: saddlebrown;
+}
+.listaCaf{
+	text-align: center;
+	line-height: 3;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+.encabezado3{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	margin-bottom: 14px;
+}
+.parallax {
+
+  /* The image used */
+
+  background-image: url("../assets/img/conoshelado.jpg");
+
+  /* Set a specific height */
+
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+
+  background-attachment: fixed;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+               
+	/* box modeling */
+	padding: 50px 30px;
+	margin-bottom:50px;
+
+}
+.encabezado4{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	margin-bottom: 14px;
+}
+.encabezado5{
+	grid-area: encabezado;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	text-align: center;
+	color: sandybrown;
+	margin-bottom: 14px;
+	transition: 1s;
+}
+.encabezado5:hover{color: brown; cursor: pointer;}
+
+/*#gradiante{
+	background-image: linear-gradient(sandybrown, saddlebrown);
+}*/
+
+.ico_foo{transition: 1s;}
+.ico_foo:hover{transform: translateY(-10px); cursor: pointer;}
+.nav{transition: 1s;}
+.nav:hover{color: brown; cursor: pointer;}
+.gaudi{transition: 1s;}
+.gaudi{transform: scale(1.1,1.1);}
+
+.navbar-expand-lg .navbar-collapse{
+	justify-content: space-evenly;
+	font-size: 2rem;
+}
+.paddingTB{padding-top: 50px;padding-bottom: 50px;}
+
+/*.col-lg-12,.col-lg-6, .col-lg-4, .col-lg-3{padding-right: 0;padding-left: 0;}*/
+.col-lg-6, .col-xs-12{
+	font-size:18px;
+}
+
+.paddingLR{padding-left: 10px; padding-right: 10px;}
+
+.footerBg{background-color: #996600;}
+.footerBg h3{color: black; text-align: center;}
+
+.navBg{background-color: #996600;}
+
+.color{color: dimgrey;}
+
+
+
+/*vista mobile*/
+@media only screen	and (max-width: 767px){
+	.footerFlex{display: flex;flex-direction: column; flex-flow: row;}
+	p, span li{font-size: 18px;}
+	h1{font-size: 40px;}
+	h3{font-size: 32px;}
+	
+}
